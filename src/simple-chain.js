@@ -37,15 +37,11 @@ const chainMaker = {
 
 	reverseChain() {
 		this.arr.reverse();
-
-		console.log(this.arr);
-
 		return this;
 	},
 
 	finishChain() {
 		const str = this.arr.join('~~');
-		console.log(this.arr);
 		this.arr = [];
 
 		return str;
